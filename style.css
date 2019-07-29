@@ -1,0 +1,295 @@
+
+body {
+    margin: 10px 30px 10px 30px;
+    padding: 0;
+  }
+  
+  .logo {
+    float: left;
+  }
+
+  /* ~~ Top Navigation Bar ~~ */
+  
+  #navigation-container {
+    width: 1200px;
+    margin: 0 auto;
+    height: 70px;
+  }
+  
+  .navigation-bar {
+    
+    height: 70px;
+    width: 100%;
+    text-align:right;
+  }
+  .navigation-bar img{
+  float:left;
+  border-radius: 80px;
+  }
+  .navigation-bar ul {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display:inline-block;
+    vertical-align:top;
+  }
+  
+  .navigation-bar li {
+    list-style-type: none;
+    padding: 0px;
+    display: inline;
+  }
+  
+  .navigation-bar li a {
+    color: black;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 5px 15px;
+    opacity: 0.7;
+  }
+
+
+  
+#introduction{
+    background: linear-gradient(to right, #00416a, #e4e5e6);
+    padding: 30px;
+    margin: 16px 0;
+  }
+  #introduction h3{
+    font-size: 45px;
+    color: #fff;
+    font-weight: normal;
+  }
+  #introduction p{
+    font-size: 20px;
+    color:#fff;
+    text-align: justify;
+  }
+  
+  #menu {
+    float: right;
+  }
+  .about-moses{
+      margin-top: 200px;
+  }
+  .about-moses-desc{
+      width: 90%;
+      margin: auto;
+      font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+      font-size: 1.3em;
+      text-align: center;
+  }
+
+ 
+  .about-moses-desc h1{
+    text-align: center;
+  }
+
+  h2 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+ 
+ h2 span { 
+     background:#fff; 
+     padding:0 10px; 
+ }
+
+
+ .sidebar{
+    height: 400px;
+    width: 520px;
+    border: solid #0D4A71;
+    border-radius: 20px;
+    padding: 10px 30px
+
+  }
+  .sidebar h3{
+    color:#0D4A71;
+    font-size: 30px;
+    /* text-align: center; */
+  }
+  
+  .sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #5d12e7;
+    transition: font-size 0.5s ease;
+  }
+  .sidebar ul li a:hover,.sidebar ul li a.active{
+    text-decoration: none;
+    color: #0D4A71;
+    font-size: 23px;
+    font-weight: bold;
+  }
+  
+#leftsidebar{
+    float:left;
+  
+  }
+  #rightsidebar{
+    float:right;
+  }
+  .sidebar ul{
+    padding-top: 8px;
+  }
+
+  #rightsidebar ul li{
+    padding-bottom: 20px;
+    padding-left: 70px;
+    background: url(img/vIcon.png) no-repeat left;
+  }
+  ul{
+    list-style: none;
+  }
+  #leftsidebar ul li{
+    padding-bottom: 6px;
+    padding-left: 10px;
+    list-style-image: url(img/arrow.png);
+  }
+
+
+
+
+
+/* 
+#slideshow {
+    overflow: hidden;
+    height: 510px;
+    width: 1200px;
+    margin-top: 20px;
+  }
+  
+  .slide-wrapper {
+    width: 2912px;
+    animation: slide 18s ease infinite;
+  }
+  
+  .slide {
+    float: left;
+    height: 400px;
+    width: 728px;
+  }
+  
+  .slide:nth-child(1) {
+    background: #D93B65;
+  }
+  
+  .slide:nth-child(2) {
+    background: #037E8C;
+  }
+  
+  .slide:nth-child(3) {
+    background: #36BF66;
+  }
+  
+  .slide:nth-child(4) {
+    background: #D9D055;
+  }
+  .slide:nth-child(5) {
+    background: #36BF66;
+  }
+ 
+  
+  .slide-number {
+    color: #000;
+    text-align: center;
+    font-size: 10em;
+  }
+  
+  @keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -728px;}
+    50% {margin-left: -728px;}
+    60% {margin-left: -1456px;}
+    70% {margin-left: -1456px;}
+    80% {margin-left: -2184px;}
+    90% {margin-left: -2184px;}
+  }  */
+  .clear{
+    clear:both;
+  }
+  #slideshow {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+
+
+  .site-footer {
+   
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px 0;
+  }
+  
+  #social-wrapper {
+    text-align: center;
+  }
+  
+  /*Social Media Icons*/
+  .social-wrapper {
+    text-align: center;
+  }
+  
+  .social-wrapper ul li {
+    display: inline;
+    margin: 0 5px;
+  }
+  
+  .github-icon,
+  .facebook-icon,
+  .linkdin-icon,
+  .codewar-icon,
+  .fcc-icon,
+  .googleplus-icon,
+  .youtube-icon,
+  .foursquare-icon{
+    margin-top: .625em;
+    width: 40px;
+    height: 40px;
+    opacity: .6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    border-radius: 25px;
+  }
+  
+  .github-icon:hover,
+  .linkdin-icon:hover,
+  .codewar-icon:hover,
+  .linkedin-icon:hover,
+  .googleplus-icon:hover,
+  .youtube-icon:hover,
+  .foursquare-icon:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+  }
+  
+  .footer-nav p {
+    text-align: center;
+  }
+
+
+ 
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
