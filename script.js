@@ -3,9 +3,9 @@ var images = [];	// Images Array
 var time = 3000;	// Time Between Switch
 	 
 // Image List
-images[0] = "img/moses.jpg";
-images[1] = "img/moses2.jpg";
-images[2] = "img/moses3.jpg";
+images[0] = "moses.jpg";
+images[1] = "moses2.jpg";
+images[2] = "moses3.jpg";
 
 
 // Change Image
